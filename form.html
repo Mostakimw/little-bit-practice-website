@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Life Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+        <h1>Show us your information</h1>
+    </header>
+    <main>
+        <section class="form">
+            <form action="">
+                <h3>Journey to Web dev</h3>
+                <label for="name">
+                    <span>Your Name: </span> 
+                    <input type="text" name="info" id="name" placeholder="Your Name">
+                </label>
+                <label for="email">
+                    <span>Your Email: </span>
+                    <input type="email" name="info" id="email" placeholder="Your Email">
+                </label>
+                <label for="number">
+                    <span>Your Phone: </span>
+                    <input type="number" name="info" id="phone" placeholder="Your Number">
+                </label>
+                <fieldset>
+                    <legend>What's Your Future Goal?</legend>
+                    <label for="doctor">
+                        <input type="radio" name="goal" id="doctor">
+                        Doctor
+                    </label>
+                    <label for="engineer">
+                        <input type="radio" name="goal" id="engineer">
+                        Engineer
+                    </label>
+                    <label for="developer">
+                        <input type="radio" name="goal" id="developer">
+                        Developer
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Which side you wanna develop from options below?</legend>
+                    <label for="html">
+                        <input type="checkbox" name="skill" id="html">
+                        HTML
+                    </label>
+                    <label for="css">
+                        <input type="checkbox" name="skill" id="css">
+                        CSS
+                    </label>
+                    <label for="js">
+                        <input type="checkbox" name="skill" id="js">
+                        JS
+                    </label>
+                    <label for="all">
+                        <input type="checkbox" name="skill" id="all">
+                        All above
+                    </label>
+                </fieldset>
+                <div>
+                    <h2>If want to tell us special about you don't hesitate</h2>
+                    <textarea name="others" id="extra-about" cols="30" rows="10" placeholder="type here"></textarea>
+                </div>
+
+                <input type="reset" value="Reset All Queries" class="resub">
+                <input type="submit" value="Submit" class="resub">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 5020</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 0 8px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: black;
+    padding: 5px 8px;
+}
+nav ul li a:hover {
+    background-color: salmon;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: olivedrab;
+}
+.form label {
+    display: block;
+    margin-bottom: 8px;
+}
+.form span {
+    font-weight: 700;
+}
+.form h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form fieldset {
+    margin: 15px 0;
+}
+.form legend {
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form .resub {
+    margin: 20px 0;
+    padding: 5px 3px;
+}
+
+/* media */
+.media h4 {
+    color: cadetblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* table  */
+.table {
+    margin: 0 auto;
+    width: fit-content;
+}
+.table table {
+    border-collapse: collapse;
+}
+.table td, th {
+    border: 1px solid black;
+    padding: 5px 12px;
+}
+
+footer {
+    margin-top: 30px;
+}
+footer p {
+    /* background-color: aqua; */
+    text-align: center;
+    padding: 12px 20px;
+    border: 1px solid black;
+}
